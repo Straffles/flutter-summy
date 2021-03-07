@@ -57,7 +57,6 @@ toml==0.10.2
 tqdm==4.54.1
 typed-ast==1.4.1
 urllib3==1.26.2
-vi-spacy-model==0.2.1
 wasabi==0.8.0
 webdriver-manager==3.3.0
 Werkzeug==1.0.1
