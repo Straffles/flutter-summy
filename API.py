@@ -7,7 +7,7 @@ response = ''
 app = Flask(__name__)
 
 
-@app.route('/api', methods=['POST'])
+@app.route('/', methods=['POST'])
 def summarize():
     global response
 
