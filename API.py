@@ -15,7 +15,6 @@ def summarize():
     text = request_data['text']
     text = summary(text)
     return  jsonify({'text' : text})
-    const PORT = process.env.PORT || 5000
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port = PORT, debug=True)
+    app.run(host='0.0.0.0', port = 5000, debug=True)
