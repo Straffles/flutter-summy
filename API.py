@@ -2,12 +2,12 @@ from flask import Flask ,request, jsonify
 import json
 # from vitest import summary
 
-response = ''
+# response = ''
 
 app = Flask(__name__)
 
 
-@app.route('/', methods=['POST'])
+@app.route('/')
 def hello():
     return "Hello World!"
 # def summarize():
