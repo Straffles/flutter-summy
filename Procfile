@@ -1,1 +1,1 @@
-web: gunicorn API:app
+web: gunicorn API:app --preload -b 0.0.0.0:5000
