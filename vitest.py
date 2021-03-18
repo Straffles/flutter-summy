@@ -1,3 +1,4 @@
+import os
 import nltk
 import numpy as np
 from gensim.models.keyedvectors import KeyedVectors
@@ -7,7 +8,10 @@ from sklearn.metrics import pairwise_distances_argmin_min
 import fasttext
 import fasttext.util
 
-w2v = KeyedVectors.load_word2vec_format('C:\\Users\\Admin\\Documents\\WeTech\\back-end\\baomoi.model.bin', binary=True)
+os.chdir(r'C:\Users\Admin\Documents\GitHub\flutter-summy')
+
+
+w2v = KeyedVectors.load_word2vec_format('baomoi.model.bin', binary=True)
 vocab = w2v.vocab
 
 n_clusters = 5
